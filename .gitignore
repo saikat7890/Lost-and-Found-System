@@ -1,0 +1,8 @@
+# Root .gitignore
+node_modules/
+.env
+backend/node_modules/
+backend/.env
+my-react-app/node_modules/
+my-react-app/.env
+my-react-app/build/
