@@ -43,7 +43,7 @@ const createItem = async (req, res) => {
       contactPhone,
       contactEmail
     } = req.body;
-
+    
     // Validation
     if (!title || !description || !category || !type || !location || !dateOccurred) {
       return res.status(400).json({
